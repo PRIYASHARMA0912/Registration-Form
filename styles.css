@@ -1,0 +1,76 @@
+
+body {
+    background: url("data:image/jpeg;base64,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");
+    background-size: 180%;
+    background-position: 10px 10px;
+}
+div.main{
+
+    width: 600px;
+    margin: 100px auto 0px auto;
+}
+
+h2{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+div.register{
+    background-color:rgba(243, 245, 247, 0.5);
+    width: 100%;
+    font-size:25px;
+    border-radius: 40px;
+    border: 1px soid rgba(19, 17, 17, 0.795)
+    box-shadow  2px 2px 15px  
+    rgba(2, 2, 2, 0.3);
+    color:rgb(14, 13, 13);
+    
+}
+form#register{
+margin:40px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size  :30px;
+    font-style:italic 
+}
+
+input#name{
+    width: 500px;
+    border: 1px solid rgb(19, 18, 20);
+    border-radius:20px;
+    outline: 0;
+    padding: 15px;
+    background-color: rgb(243, 231, 231);
+    box-shadow: inset 1px 1px 5px 
+    rgba(0,0,0,0.3);
+
+}
+
+
+input#submit{
+    width: 1000px;
+    padding: 20px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 1000;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(145, 133, 68, 0.8);
+    color: rgb(17, 16, 16);
+    cursor: pointer;
+    border: 1px solid 
+    rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px
+     rgba(0,0,0,0.3);
+     margin-bottom: 20px;
+}
+
+
+label,span,h2{
+    text-shadow: 1px 1px 5px 
+    rgba(20, 20, 22, 0.3);
+}
