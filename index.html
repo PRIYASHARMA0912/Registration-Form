@@ -3,19 +3,48 @@
 <head>
 <title> Registration Form</title>
 <link rel="stylesheet" href="styles.css">
+<script>    
+    function validate() {    
+        var fname = document.RegForm.fname;    
+        var lname = document.RegForm.lname;    
+            
+        var gender = document.RegForm.gender;    
+        var email = document.RegForm.email;    
+           
+    
+
+        if (fname.value.length <= 0) {    
+            alert("First Name is required");    
+            fname.focus();    
+            return false;    
+        }    
+        if (lname.value.length <= 0) {    
+            alert("Last Name is required");    
+            lname.focus();    
+            return false;    
+        } 
+        if(age.value.length<= 0){
+            alert("Enter Age");
+            age.focus();
+            return false;
+        }   
+        
+        if (gender.value.length <= 0) {    
+            alert("Gender is required");    
+            gender.focus();    
+            return false;    
+        }    
+        if (Email.value.length <= 0) {    
+            alert("Email Id is required");    
+            Email.focus();    
+            return false;    
+        }    
+        return false;
+    }
+        
+</script>    
 </head>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="./home.html" >Home</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="./about.html">About</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="./contact.html">Contact</a>
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="./service.html">Service</a>
-
-    
-<img src="data:image/png;base64,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" alt="LOGO">
 
 <div class="main">
     <div class="register">
@@ -29,7 +58,7 @@
             <br><br>
             <label>Last Name :</label>
             <br>
-            <input type="text" name="fname" id="name" >
+            <input type="text" name="lname" id="name" >
             <br><br>
             <label> Your Age :</label>
             <br>
