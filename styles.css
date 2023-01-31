@@ -53,11 +53,11 @@ input#name{
 
 
 input#submit{
-    width: 50px;
+    width: 90px;
     padding: 1px;
     font-size: 25px;
     font-family: sans-serif;
-    font-weight: 1000;
+    font-weight: 100;
     border: none;
     border-radius: 5px;
     background-color: rgba(145, 133, 68, 0.8);
