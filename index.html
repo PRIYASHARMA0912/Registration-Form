@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,46 +58,54 @@
                 First Name : 
             </label>
             <br>
-            <input type="text" name="fname" id="name" >
+            <input type="text" name="fname" id="name" required >
             <br><br>
             <label>Last Name :</label>
             <br>
-            <input type="text" name="lname" id="name" >
+            <input type="text" name="lname" id="name" required >
             <br><br>
             <label> Your Age :</label>
             <br>
-            <input type="number" name="age" id="name"   >
+            <input type="number" name="age" id="name" required  >
             <br><br>
             <label> Email :</label>
             <br>
-            <input type="Email" name="Email" id="name"  >
+            <input type="Email" name="Email" id="name" required  >
             <br><br>
             <label>Gender</label>
-            <br>
+            <br><br>
             &nbsp;&nbsp;&nbsp;
-            <input type="radio" name="gender" id="male" font size: "25">
+            <label>
+            <input type="radio" name="gender" id="male" required > Male
+            </label>
+            
+            
             &nbsp;
-            <span id="male" >Male</span>
+           
             &nbsp;&nbsp;
-            <input type="radio" name="gender" id="female">
+            <label>
+            <input type="radio" name="gender" id="female" required> Female
             &nbsp;
-            <span id="female" >Female</span>
+        </label>
             <br><br>
             <label>Known Language :</label>
-            <br>
+            <br><br>
             &nbsp;&nbsp;&nbsp;
-            <input type="checkbox" name="lang" id="hindi">
+            <label>
+            <input type="checkbox" name="lang" id="hindi" required>Hindi
             &nbsp;
-            <span id="hindi" font size="5">Hindi </span>
+            </label>
             &nbsp;&nbsp;
-            <input type="checkbox" name="lang" id="eng">
+            <label>
+            <input type="checkbox" name="lang" id="eng" required>English
             &nbsp;
-            <span id="eng">English </span>
+        </label>
             &nbsp;&nbsp;
             
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br><br>
-            <button style="width:90px;height:40px;"><font size="5" color="black">Submit</font></button>
+            <input type="submit" id="submit">
+            
             <br><br>
         
         </form>
@@ -107,4 +116,5 @@
 </body>
 
 </html>
+
 
